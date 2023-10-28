@@ -39,7 +39,8 @@ void main() {
       ChangeNotifierProvider(create: (BuildContext context) => FaqsViewModel()),
       ChangeNotifierProvider(
           create: (BuildContext context) => ProfileViewModel()),
-
+ChangeNotifierProvider(
+          create: (BuildContext context) => WalletViewModel()),
       ChangeNotifierProvider(
           create: (BuildContext context) => AddressViewModel()),
       ChangeNotifierProvider(
